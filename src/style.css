@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  /* Soft Pastel Theme Colors */
+  --color-pastel-bg: #f8fafc;
+  --color-pastel-card: #ffffff;
+  --color-pastel-text: #1e293b;
+  --color-pastel-muted: #64748b;
+  --color-pastel-border: #f1f5f9;
+  
+  /* Lavender Pastels */
+  --color-pastel-lavender-50: #f5f3ff;
+  --color-pastel-lavender-100: #e0e7ff;
+  --color-pastel-lavender-200: #c7d2fe;
+  --color-pastel-lavender-300: #a5b4fc;
+  --color-pastel-lavender-500: #6366f1;
+  --color-pastel-lavender-600: #4f46e5;
+  
+  /* Mint Pastels */
+  --color-pastel-mint-50: #ecfdf5;
+  --color-pastel-mint-100: #d1fae5;
+  --color-pastel-mint-200: #a7f3d0;
+  --color-pastel-mint-700: #047857;
+  
+  /* Rose Pastels */
+  --color-pastel-rose-50: #fff5f5;
+  --color-pastel-rose-100: #ffe4e6;
+  --color-pastel-rose-200: #fecdd3;
+  --color-pastel-rose-700: #b91c1c;
+  
+  /* Amber Pastels */
+  --color-pastel-amber-50: #fffbeb;
+  --color-pastel-amber-100: #fef3c7;
+  --color-pastel-amber-200: #fde68a;
+  --color-pastel-amber-700: #b45309;
+  
+  /* Blue Pastels */
+  --color-pastel-blue-50: #f0f9ff;
+  --color-pastel-blue-100: #e0f2fe;
+  --color-pastel-blue-200: #bae6fd;
+  --color-pastel-blue-700: #0369a1;
+  
+  /* Pink Pastels */
+  --color-pastel-pink-50: #fdf2f8;
+  --color-pastel-pink-100: #fce7f3;
+  --color-pastel-pink-200: #fbcfe8;
+  --color-pastel-pink-700: #be185d;
+  
+  /* Peach Pastels */
+  --color-pastel-peach-50: #fff7ed;
+  --color-pastel-peach-100: #ffedd5;
+  --color-pastel-peach-200: #fed7aa;
+  --color-pastel-peach-700: #c2410c;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbars for clean look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
